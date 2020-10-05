@@ -38,6 +38,8 @@ end
 # Define your play method below
 
 def play(board)
-  # Start a loop and call #turn
-
+counter = 0
+until counter == play(board)
+  counter += 1
+end
 end
