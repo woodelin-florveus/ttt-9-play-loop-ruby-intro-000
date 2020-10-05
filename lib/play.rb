@@ -39,12 +39,5 @@ end
 
 def play(board)
   # Start a loop and call #turn
-counter = 0
 
-loop do
-  counter += 1
-  if counter < 9
-    return turn(board)
-  end
-end
 end
