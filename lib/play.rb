@@ -44,8 +44,7 @@ counter = 0
 loop do
   counter += 1
   if counter < 9
-    return turn(board) 
+    return turn(board)
   end
 end
 end
-play(board)
